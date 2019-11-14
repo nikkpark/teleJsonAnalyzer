@@ -24,8 +24,6 @@ def getInputParameters():
             return int(chart), int(length)
             break
 
-
-
 def getJsonchick():
     file = open('dump.json', mode='r', encoding='utf-8')
     raw_data = json.load(file)
@@ -34,7 +32,6 @@ def getJsonchick():
 def getUserID(data):
     user_id = data['personal_information'].get('user_id')
     return user_id
-
 
 def getContactsChat(data):
     contacts = {}
@@ -52,7 +49,6 @@ def getContactsChat(data):
                     else:
                         messageCount[1] += 1        
         messageCount = [0,0]
-
 
 def getMessages(data, user):
     messages = []
