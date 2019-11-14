@@ -9,5 +9,5 @@ Shows the N-top chart of the most frequent L-long words.
   + Execute the script
   
 ## Requirements
-  + Python 3.7.3
+  + python==3.7.3
   
