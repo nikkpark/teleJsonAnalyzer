@@ -1,6 +1,6 @@
 # TeleJsonAnalyzer
 Analyzes json-dump file from Telegram messenger
-Shows the N-top chart of the most frequent L-long words
+Shows the N-top chart of the most frequent L-long words.
 
 ## How to use:
   + Export data from Telegram Messenger
